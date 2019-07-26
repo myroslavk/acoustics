@@ -1,0 +1,21 @@
+nav {
+    background-color: black;
+    height: 115px;
+}
+
+#logoImage {
+    border-radius: 7%;
+    max-width: 240px;
+    width: auto;
+    max-height: 95px;
+    height: auto;
+    float: left;
+}
+
+.navbar-dropdown {
+    background-color: black;
+}
+
+.nav-link {
+    margin: 0.75rem;
+}

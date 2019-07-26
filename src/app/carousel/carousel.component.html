@@ -1,0 +1,16 @@
+<ngb-carousel *ngIf="images">
+
+  <div class="container">
+      <ng-template *ngFor="let image of images; index as i" ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img  [src]="images[i]" alt="">
+          </div>
+          <div class="carousel-caption">
+            <a href="" class="btn" id="exlore-project-btn">
+                <h2>Explore our projects.</h2>
+            </a>
+          </div>
+        </ng-template>
+  </div>
+    
+  </ngb-carousel>

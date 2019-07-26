@@ -1,0 +1,20 @@
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 8%;
+    font-size: 2rem;
+    padding-top: 8%;
+}
+
+#projects {
+    background-color: #aaaaaa;
+    padding-bottom: 5%;
+}
+
+img {
+    width: 25%;
+}
+
+button {
+    margin-bottom: 5%;
+}

@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top header_area clearfix">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="">
+              <img src="https://images.pexels.com/photos/2278646/pexels-photo-2278646.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" id="logoImage" alt="logo">
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" (click)="onClick()" type="button" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
+      <div class="collapse navbar-collapse" [ngClass]="{ 'show navbar-dropdown' : collapse }" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li *ngFor="let navItem of navItems" class="nav-item">
+            <a class="nav-link js-scroll-trigger" >{{navItem.name}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

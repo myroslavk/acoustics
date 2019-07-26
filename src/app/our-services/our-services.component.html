@@ -1,0 +1,18 @@
+
+<div class="container">
+    <h3>Our services</h3>
+    <div >
+        <div *ngFor="let service of services; index as i">
+                <div>
+                    <a href="">
+                        <img src="{{service.image}}" alt="">
+                    </a>
+                    <h4>{{service.name}}</h4>
+                    <p>{{service.description}}</p>
+                </div>
+            </div>
+    </div>
+    
+</div>
+
+

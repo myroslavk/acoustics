@@ -1,0 +1,15 @@
+<div id="projects">
+    <div class="container-fluid">
+            <h3>projects</h3>
+            <div class="row">
+                <button *ngFor="let proj of projects" class="col btn btn primary" >
+                    {{proj}}
+                </button>
+            </div>
+            <div class="row">
+                <div class="col" >
+                    <img *ngFor="let img of images" src="{{img}}" alt="">
+                </div>
+            </div>
+    </div>
+</div>

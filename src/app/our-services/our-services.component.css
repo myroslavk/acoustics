@@ -1,0 +1,20 @@
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 8%;
+    font-size: 2rem;
+}
+
+p, h4 {
+    text-align: center;
+}
+
+img {
+    width: 14%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
